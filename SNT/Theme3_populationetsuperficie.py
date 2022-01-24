@@ -10,5 +10,5 @@ while ligne != "":
     supEurope = supEurope + float(sup)
     ligne = f.readline()
 print("Population totale : ", popEurope, "habitants")
-print("Population totale : ", supEurope,"km²")
+print("Superficie totale : ", supEurope,"km²")
 f.close()
